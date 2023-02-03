@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;600&display=swap");
 .nav-bar {
   background-color: #17010110;
   color: white !important;
@@ -11,14 +11,14 @@
 .wel {
   font-family: Helvetica;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 30px;
+  line-height: 40px;
 }
 .front {
   font-family: "lexend";
   font-weight: 600;
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 70px;
+  line-height: 80px;
 }
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
@@ -63,4 +63,33 @@ body {
   to {
     width: 100%;
   }
+}
+.about {
+  top: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+.avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border-width: 7px;
+  border-color: rgb(46, 45, 45);
+  border-style: solid;
+  margin-left: 18%;
+  margin-top: 80px;
+}
+.about-text {
+  width: 700px;
+  margin-top: 70px;
+  margin-left: 50px;
+  font-family: "lexend";
+  font-size: 24px;
+  font-weight: 400;
+}
+.about-text h1 {
+  font-family: "lexend";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
 }

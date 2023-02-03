@@ -14,9 +14,9 @@ function NavBar() {
         <Navbar.Brand href="#home text-white">Hello</Navbar.Brand>
         <Nav className="float-end text-white">
           <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#about">About</Nav.Link>
           <Nav.Link href="#skills">Skills</Nav.Link>
           <Nav.Link href="#projects">Projects</Nav.Link>
-          <Nav.Link href="#experience">Experience</Nav.Link>
           <Nav.Link href="https://github.com/michaelchristwin">
             <GitHubIcon />
           </Nav.Link>
