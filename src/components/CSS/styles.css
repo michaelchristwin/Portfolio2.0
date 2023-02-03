@@ -93,3 +93,25 @@ body {
   font-size: 48px;
   line-height: 60px;
 }
+.skills {
+  top: 183vh;
+  width: 100vw;
+  background-color: white;
+}
+.skill-in {
+  margin-top: 100px;
+  position: relative;
+  width: 65%;
+  height: 600px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+}
+.skill-title {
+  transform: translateY(30px);
+  font-family: "lexend";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  margin-top: 30px;
+}

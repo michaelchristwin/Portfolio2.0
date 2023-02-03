@@ -11,7 +11,7 @@ function NavBar() {
   return (
     <Navbar className="nav-bar" fixed="top" variant="dark">
       <Container className="d-flex">
-        <Navbar.Brand href="#home text-white">Hello</Navbar.Brand>
+        <Navbar.Brand href="#home text-white">Hello World</Navbar.Brand>
         <Nav className="float-end text-white">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#about">About</Nav.Link>

@@ -1,8 +1,9 @@
 import Avatar from "../img/avatar2.jpg";
+import Resume from "../img/resume.pdf";
 
 function About() {
   return (
-    <div className="mt-5 position-absolute d-flex about" id="about">
+    <div className="mt-5 position-absolute d-flex about pb-5" id="about">
       <img src={Avatar} alt="" className="avatar" />
       <div className="about-text">
         <h1>About Me</h1>
@@ -14,6 +15,11 @@ function About() {
           I'm currently specialized mainly in Frontend web development but the
           journey is only beginning :).
         </p>
+        <button className="btn btn-primary">
+          <a href={Resume} download className="text-white text-decoration-none">
+            Download CV
+          </a>
+        </button>
       </div>
     </div>
   );
