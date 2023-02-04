@@ -115,3 +115,44 @@ body {
   line-height: 60px;
   margin-top: 30px;
 }
+.tool {
+  border-radius: 50px;
+  width: 200px;
+  height: 150px;
+}
+.hexagon {
+  position: relative;
+  display: inline-block;
+  margin: 40px;
+}
+
+.hexagon-shape {
+  position: relative;
+  width: 200px;
+  height: 160px;
+  background-color: white;
+}
+
+.hexagon-shape:before {
+  content: "";
+  position: absolute;
+  top: -28.87px;
+  left: 0px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 28.87px solid white;
+}
+
+.hexagon-shape:after {
+  content: "";
+  position: absolute;
+  bottom: -28.87px;
+  left: -0px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 28.87px solid white;
+}
