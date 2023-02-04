@@ -9,6 +9,7 @@ import Tail from "../img/tail.png";
 import Tool from "./Tool";
 import Express from "../img/express.png";
 import Type from "../img/type.png";
+import Git from "../img/git.png";
 
 function Skills() {
   return (
@@ -24,6 +25,7 @@ function Skills() {
           <Tool img={Django} />
           <Tool img={Tail} />
           <Tool img={Type} />
+          <Tool img={Git} />
         </ul>
       </div>
     </main>

@@ -4,6 +4,7 @@ import NavBar from "./JSX/NavBar";
 import About from "./JSX/About";
 import "../components/CSS/styles.css";
 import Skills from "./JSX/Skills";
+import Projects from "./JSX/Projects";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
+      <Projects />
     </main>
   );
 }
