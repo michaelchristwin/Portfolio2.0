@@ -53,7 +53,7 @@ body {
   width: 0;
   animation: typing;
   animation-duration: 1.5s;
-  animation-delay: 2s;
+  animation-delay: 3.2s;
   animation-timing-function: steps(30, end);
   animation-fill-mode: forwards;
 }
@@ -107,6 +107,18 @@ body {
   font-weight: 600;
   font-size: 48px;
   line-height: 60px;
+}
+.pn {
+  font-family: "lexend";
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.pn:hover {
+  color: blue;
+}
+.pro-t {
+  margin-top: 100px;
 }
 .skills {
   width: 100vw;
