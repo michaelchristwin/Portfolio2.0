@@ -4,8 +4,9 @@
   color: white !important;
 }
 .hero {
-  top: 30vh;
-  left: 12%;
+  margin-top: 30vh;
+  margin-bottom: 25%;
+  margin-left: 12%;
   color: white;
 }
 .wel {
@@ -65,9 +66,9 @@ body {
   }
 }
 .about {
-  top: 100vh;
   width: 100vw;
   background-color: white;
+  padding-bottom: 50px;
 }
 .avatar {
   width: 300px;
@@ -79,28 +80,40 @@ body {
   margin-left: 18%;
   margin-top: 80px;
 }
+@media (max-width: 1000px) {
+  .avatar {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .about-text p {
+    font-size: 19px !important;
+    margin-left: 20px !important;
+  }
+}
+
 .about-text {
   width: 700px;
   margin-top: 70px;
   margin-left: 50px;
+}
+.about-text p {
   font-family: "lexend";
   font-size: 24px;
   font-weight: 400;
 }
-.about-text h1 {
+.about-text h1,
+.pro-t {
   font-family: "lexend";
   font-weight: 600;
   font-size: 48px;
   line-height: 60px;
 }
 .skills {
-  top: 183vh;
   width: 100vw;
   background-color: white;
 }
 .skill-in {
   margin-top: 100px;
-  margin-bottom: 100px;
   position: relative;
   width: 65%;
   height: 600px;
@@ -117,14 +130,15 @@ body {
   margin-top: 30px;
 }
 .projects {
-  position: absolute;
   color: black;
   background-color: white;
   width: 100vw;
-  top: 300vh;
   padding-top: 100px;
 }
 .proj {
   width: 400px;
   height: 200px;
+}
+.pr {
+  margin-top: 100px;
 }

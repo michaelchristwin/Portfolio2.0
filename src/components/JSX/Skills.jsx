@@ -13,7 +13,7 @@ import Git from "../img/git.png";
 
 function Skills() {
   return (
-    <main className="skills bg-white position-absolute pt-4" id="skills">
+    <main className="skills bg-white pt-4" id="skills">
       <div className="skill-in mx-auto text-center d-block">
         <span className="skill-title d-block">Tech Stack</span>
         <ul id="hexGrid" className="mt-5">

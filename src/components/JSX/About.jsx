@@ -3,7 +3,7 @@ import Resume from "../img/resume.pdf";
 
 function About() {
   return (
-    <div className="mt-5 position-absolute d-flex about pb-5" id="about">
+    <div className="mt-5 d-flex about px-3" id="about">
       <img src={Avatar} alt="" className="avatar" />
       <div className="about-text">
         <h1>About Me</h1>
