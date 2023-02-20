@@ -6,7 +6,7 @@ import LaunchIcon from "@mui/icons-material/Launch";
 
 function Projects() {
   return (
-    <div className="projects pb-5">
+    <div className="projects pb-5" id="projects">
       <h1 className="text-center pro-t">Projects</h1>
       <section className="container pr">
         <Row className="row-set">
