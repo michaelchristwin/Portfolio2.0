@@ -8,7 +8,7 @@ import Projects from "./JSX/Projects";
 
 function App() {
   return (
-    <main>
+    <main className="main">
       <NavBar />
       <Hero />
       <About />

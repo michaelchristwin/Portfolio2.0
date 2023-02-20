@@ -154,3 +154,9 @@ body {
 .pr {
   margin-top: 100px;
 }
+.row-set {
+  transform: translateX(10%);
+}
+.main {
+  overflow-x: hidden;
+}
