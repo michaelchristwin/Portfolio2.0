@@ -3,10 +3,10 @@ import Resume from "../img/resume.pdf";
 
 function About() {
   return (
-    <div className="mt-5 d-flex about px-3" id="about">
+    <div className="mt-2 mt-lg-5 about px-0 px-lg-3" id="about">
       <img src={Avatar} alt="" className="avatar" />
       <div className="about-text">
-        <h1>About Me</h1>
+        <h1 className="about-m">About Me</h1>
         <p className="">
           Hi, I am Michael Christwin, a Frontend Developer proficient in
           creating great and responsive web experiences. I've had general

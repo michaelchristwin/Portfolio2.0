@@ -66,6 +66,7 @@ body {
   }
 }
 .about {
+  display: flex;
   width: 100vw;
   background-color: white;
   padding-bottom: 50px;
@@ -159,4 +160,67 @@ body {
 }
 .main {
   overflow-x: hidden;
+}
+@media (max-width: 640px) {
+  .wel {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .front {
+    font-family: "lexend";
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .hero {
+    justify-content: center;
+    display: block;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-text {
+    max-width: fit-content;
+    margin-top: auto;
+    margin-left: auto;
+  }
+  .about {
+    display: block !important;
+  }
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+      url(../img/workspace2.jpg);
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-width: 7px;
+    border-color: rgb(46, 45, 45);
+    border-style: solid;
+    margin-left: 18%;
+    margin-top: 40px;
+  }
+  .about-m {
+    width: 300px;
+    font-family: "lexend";
+    font-weight: 500 !important;
+    font-size: 38px !important;
+    line-height: 40px !important;
+    text-align: center;
+  }
+  .about-text p {
+    margin-left: 9px !important;
+    margin-right: 9px !important;
+  }
+  .btn {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
